@@ -1,0 +1,36 @@
+ALGORITHM Test
+
+VAR 
+
+i:integer := 0
+w :STRING := 0
+ch:= STRING
+v: INTEGER :=0
+c: INTEGER :=0
+BEGIN
+
+    write('Write something')
+    read(ch)
+
+FOR i from 0 to ch.length-1 step 1 do 
+
+   IF (ch[i] = " " OR ch[i] = "." )THEN 
+
+       w=w+1
+
+    END_IF
+
+  IF (ch[i]in['a','e','i','y','o','u','A','E','I','Y','O','U']) THEN
+        v:=v+1
+
+     END_IF
+
+  IF (ch[i] in ["A".."Z"] OR ["a".."z"]) THEN
+        c:=c+1
+
+   END_FOR
+    write (w) 
+    write (v)
+    write(c)
+
+END

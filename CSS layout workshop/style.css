@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+/* .box {
+  border: 1px solid red;
+  padding: 100px;
+  /* margin: 200px 50px 300px 400px; */
+/* margin: 100px 50px 100px 0; */
+/* background-color: rosybrown; */
+/* } */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0 250px;
+}
+
+/* ********************* Header styles ***************************** */
+
+header {
+  display: flex;
+  padding: 30px 0;
+  /* background-color: rosybrown; */
+  justify-content: space-between;
+  /* box-shadow: 2px 2px #888888; */
+}
+
+.navigation-list {
+  width: 300px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-btn {
+  position: relative;
+}
+
+li {
+  color: #ababab;
+}
+
+.active {
+  color: #00b39b;
+}
+
+li:hover {
+  color: #00b39b;
+}
+
+.dropdown li {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.dropdown li:hover {
+  background-color: silver;
+}
+.dropdown {
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 250px;
+  box-shadow: 2px 2px #888888;
+  background-color: white;
+}
+
+.dropdown-btn:hover .dropdown {
+  display: block;
+}
+
+/* ************************* main styles *********************** */
+/*  section */
+
+.patients {
+  background-color: #00ccb1;
+}
+
+.doctors {
+  background-color: #3d83df;
+}
+
+.clinics {
+  background-color: #1b2734;
+}
+
+.leads {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lead-card {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+.leads img {
+  width: 30px;
+}
+
+select {
+  background-color: transparent;
+  outline: none;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+.message {
+  color: #00b39b;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logos-sec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logos-sec h2 {
+  width: 20%;
+}
+
+.logos-sec div {
+  width: 60%;
+}
+
+h2 {
+  width: 25%;
+}
+
+.elements {
+  background-color: #e5faf8;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -250px;
+  padding: 20px 250px;
+}
+
+.stats{
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 40%;
+}
+.element{
+  width: 150px;
+  height: 250px;
+  background-color: white;
+  margin: 10px 0 0 10px;
+}
+
+.elements h2 {
+  color: #00b39b;
+}
+
+.elements h3 {
+  color: #00b39b;
+}
+
+.places {
+  text-align: center;
+}
+
+.places h1 {
+  color: #00b39b;
+}
+
+.world {
+     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:center;
+    width: 80%;
+  }
+
+.cover {
+  display: flex;
+  justify-content: space-between;
+}
+
+.website {
+
+  display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-size: .625rem;
+    padding: 1em 1.5em;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+    box-sizing: inherit;
+
+}
+
+h3 {
+  color: #333;
+  text-align: center;
+}
+
+.endingfooter p {
+
+  border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
+
+    font-size: 16px;
+    line-height: 1.3;
+
+}
+
+.sounds{
+  text-align: center;
+}
